@@ -1,0 +1,27 @@
+
+@import 'base/_variables';
+@import 'base/_mixins';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    width: 1340px;
+    margin: 0 auto;
+}
+
+@import 'blocks/_header';
+@import 'blocks/_title';
+@import 'blocks/_sidepanel';
+@import 'blocks/_auto_logo';
+@import 'blocks/_works';
+@import 'blocks/_our_works';
+@import 'blocks/_service';
+@import 'blocks/_contacts';
+@import 'blocks/_footer';
+@import 'blocks/_pageup';
+
+@import 'blocks/_media';
+
