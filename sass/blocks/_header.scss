@@ -1,6 +1,6 @@
 header {
     width: 100%;
-    height: 115px;
+    height: 90px;
     background-color: $two_color;
     position: relative;
     .cl_header {
@@ -10,12 +10,14 @@ header {
             display: flex;
             align-items: center;
             img {
+                height: 45px;
+                width: 45px;
                 margin-right: 32px;
             }
             .happycars {
                 color: #8B8B8B;
-                font-size: 55px;
-                line-height: 73px;
+                font-size: 40px;
+                line-height: 50px;
                 font-family: "RobotoMonoBold";
             }
         }

@@ -1,19 +1,19 @@
-// var slider = tns({
-//     container: '.carousel_inner',
-//     items: 6,
-//     // slideBy: 'page',
-//     slideBy: 1,
-//     autoplay: true,
-//     controls: false,    // отображение кнопок "назад" "вперед"
-//     nav: false,    // отображение точек слайдера
-//     autoplayButtonOutput: false, // отображение кнопки "стоп" "старт"
-//     speed: 2000,
-//     autoplayTimeout: 1500
-//     // controlsText: [
-//     //     'img/icon/left_button.png',
-//     //     'img/icon/right_button.png'
-//     // ]
-//   });
+var slider = tns({
+    container: '.carousel_inner',
+    items: 6,
+    // slideBy: 'page',
+    slideBy: 1,
+    autoplay: true,
+    controls: false,    // отображение кнопок "назад" "вперед"
+    nav: false,    // отображение точек слайдера
+    autoplayButtonOutput: false, // отображение кнопки "стоп" "старт"
+    speed: 2000,
+    autoplayTimeout: 1500
+    // controlsText: [
+    //     'img/icon/left_button.png',
+    //     'img/icon/right_button.png'
+    // ]
+  });
 
 //   var slider = tns({
 //     container: '.carousel_works',
