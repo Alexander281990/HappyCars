@@ -15,21 +15,21 @@ var slider = tns({
     // ]
   });
 
-//   var slider = tns({
-//     container: '.carousel_works',
-//     items: 6,
-//     slideBy: 1,
-//     autoplay: true,
-//     controls: false,    // отображение кнопок "назад" "вперед"
-//     nav: false,    // отображение точек слайдера
-//     autoplayButtonOutput: false, // отображение кнопки "стоп" "старт"
-//     autoplayTimeout: 2500,
-//     speed: 1000,
-//     autoplayDirection: 'backward'
-//     // fixedWidth: 150,
-//     // gutter: 120,
-//     // autoWidth: true
-//   });
+  // var slider = tns({
+  //   container: '.carousel_works',
+  //   items: 6,
+  //   slideBy: 1,
+  //   autoplay: true,
+  //   controls: false,    // отображение кнопок "назад" "вперед"
+  //   nav: false,    // отображение точек слайдера
+  //   autoplayButtonOutput: false, // отображение кнопки "стоп" "старт"
+  //   autoplayTimeout: 2500,
+  //   speed: 1000,
+  //   autoplayDirection: 'backward'
+  //   // fixedWidth: 150,
+  //   // gutter: 120,
+  //   // autoWidth: true
+  // });
 
 
   // код отвечающий за клики по выполняемым работам и появлению 
