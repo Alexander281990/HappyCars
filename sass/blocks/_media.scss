@@ -49,16 +49,55 @@
     .container {
         max-width: 720px;
     }
+    header {
+       .header_right {
+            ul {
+                li {
+                    justify-content: space-between;
+                    a {
+                        font-size: 0;
+                    }
+                }
+            }
+       } 
+    }
 }
 
 @media (max-width: 768px) {
     .container {
         max-width: 540px;
     }
+    header {
+        .hamburger {
+            display: flex;
+        }
+        .cl_header {
+            .header_right {
+                display: none;
+            }
+        }
+    }
+    .header_panel {
+        display: none;
+    }
+    
 }
 
 @media (max-width: 576px) {
     .container {
         width: 100%;
+    }
+    header {
+        .hamburger {
+            display: flex;
+        }
+        .cl_header {
+            .header_right {
+                display: none;
+            }
+        }
+    }
+    .header_panel {
+        display: none;
     }
 }

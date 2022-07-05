@@ -1,35 +1,35 @@
-var slider = tns({
-    container: '.carousel_inner',
-    items: 6,
-    // slideBy: 'page',
-    slideBy: 1,
-    autoplay: true,
-    controls: false,    // отображение кнопок "назад" "вперед"
-    nav: false,    // отображение точек слайдера
-    autoplayButtonOutput: false, // отображение кнопки "стоп" "старт"
-    speed: 2000,
-    autoplayTimeout: 1500
-    // controlsText: [
-    //     'img/icon/left_button.png',
-    //     'img/icon/right_button.png'
-    // ]
-  });
+// var slider = tns({
+//     container: '.carousel_inner',
+//     items: 6,
+//     // slideBy: 'page',
+//     slideBy: 1,
+//     autoplay: true,
+//     controls: false,    // отображение кнопок "назад" "вперед"
+//     nav: false,    // отображение точек слайдера
+//     autoplayButtonOutput: false, // отображение кнопки "стоп" "старт"
+//     speed: 2000,
+//     autoplayTimeout: 1500
+//     // controlsText: [
+//     //     'img/icon/left_button.png',
+//     //     'img/icon/right_button.png'
+//     // ]
+//   });
 
-  var slider = tns({
-    container: '.carousel_works',
-    items: 6,
-    slideBy: 1,
-    autoplay: true,
-    controls: false,    // отображение кнопок "назад" "вперед"
-    nav: false,    // отображение точек слайдера
-    autoplayButtonOutput: false, // отображение кнопки "стоп" "старт"
-    autoplayTimeout: 2500,
-    speed: 1000,
-    autoplayDirection: 'backward'
-    // fixedWidth: 150,
-    // gutter: 120,
-    // autoWidth: true
-  });
+//   var slider = tns({
+//     container: '.carousel_works',
+//     items: 6,
+//     slideBy: 1,
+//     autoplay: true,
+//     controls: false,    // отображение кнопок "назад" "вперед"
+//     nav: false,    // отображение точек слайдера
+//     autoplayButtonOutput: false, // отображение кнопки "стоп" "старт"
+//     autoplayTimeout: 2500,
+//     speed: 1000,
+//     autoplayDirection: 'backward'
+//     // fixedWidth: 150,
+//     // gutter: 120,
+//     // autoWidth: true
+//   });
 
 
   // код отвечающий за клики по выполняемым работам и появлению 
@@ -64,4 +64,18 @@ var slider = tns({
     var _href = $(this).attr("href");
     $("html, body").animate({scrollTop: $(_href).offset().top+"px"});
     return false;
+  });
+
+
+
+  const hamburger = document.querySelector('.hamburger'),
+      menu = document.querySelector('.menu'),
+      closeElem = document.querySelector('.menu_close');
+
+  hamburger.addEventListener('click', () => {
+      menu.classList.add('active');
+  });
+
+  closeElem.addEventListener('click', () => {
+      menu.classList.remove('active');
   });
